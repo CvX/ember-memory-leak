@@ -3,6 +3,7 @@
 
 module.exports = function(environment) {
   let ENV = {
+    test: 'woop',
     modulePrefix: 'ember-memory-leak',
     environment,
     rootURL: '/',
